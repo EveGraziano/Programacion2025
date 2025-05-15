@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #13ad6591;
+}
+#contenedor{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+}
+#sombraTexto1{
+    font-size: 42px;
+    font-weight: 600;
+    text-shadow: -3px 3px 8px #00000096;
+}
+#sombraTexto2{
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px red, 6px 6px 10px blue;
+}
+.caja{
+    display: block;
+    width: 300px;
+    background-color: #00ffff69;
+    padding: 16px;
+    margin: 16px;
+}
+#sombraCaja1{
+    box-shadow: 6px 6px  6px #fcfc0393;
+}
+#sombraCaja2{
+    box-shadow: 3px 3px red, 9px 9px green, 12px 12px blue;
+}
+#sombraCaja3{
+    box-shadow: 7px 7px 4px black inset;
+}
+#sombraCaja4{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+#opacidad{
+    opacity: 0.5;
+}
+#redimensionar{
+    resize: both;
+    overflow: auto;
+}
