@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(58, 160, 215);
+    background-color:  rgb(20, 87, 123);
 }
 #contenedor{
     background-color: white;
@@ -41,21 +41,17 @@ nav a{
 nav a:hover{
     background-color: rgb(8, 45, 64);
 }
-main{
-    padding: 0 2rem;
-    font-size: 0;
+
+hr{
+    background-color: rgb(20, 87, 123);
+    max-height: 2em;
+    padding: 0.1em;
 }
-main span{
-    display:inline-block;
-    width: 55%;
-    font-size: 1rem;
-    padding-right: 5%;
+#mapa{
+    padding: 1.2em;
+    width: 100%;
 }
-main img{
-    width: 40%;
-    vertical-align: top;
-}
-#accion{
+#ciclo{
     background-color: rgb(20, 87, 123);
     color: white;
     margin: 1em 0;
@@ -63,7 +59,7 @@ main img{
     font-size: 2em;
     text-align: center;
 }
-#accion a{
+#ciclo a{
     color:  rgb(20, 87, 123);
     background-color: white;
     text-decoration: none;
@@ -71,37 +67,9 @@ main img{
     padding: 0.5em;
     border-radius: 0.5em;
 }
-#accion a:hover{
+#ciclo a:hover{
     color: white;
     background-color: rgb(2, 29, 44);
-}
-#testimonios{
-    padding: 0 2rem;
-    font-size: 0;
-    text-align: center;
-
-}
-#testimonios >div >img{
-    margin: 0 auto;
-    width: 120px;
-    display: block;
-    border-radius: 50%;
-    filter: grayscale(100%);
-}
-#testimonios >div{
-    padding: 0 1em;
-    box-sizing: border-box;
-    font-size: 1rem;
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
-}
-#testimonios >div >span{
-    font-size: 1.5em;
-    font-style: italic;
-}
-#testimonios >div >img:hover{
-    filter: grayscale(0%);
 }
 section{
     padding: 0 2em;

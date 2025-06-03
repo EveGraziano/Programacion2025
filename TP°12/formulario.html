@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
 </head>
 <body>
-    <h1>Formulario</h1>
-    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quam illo architecto harum at officiis doloribus modi ut aperiam molestias deleniti enim facilis, similique repellendus. Voluptatem consectetur deleniti nostrum odit fugit commodi adipisci, itaque cum illum? Eum repellat, ipsa quas doloribus nihil sapiente ipsum itaque iure dolorem facilis. Soluta, corrupti?</h2>
+    <div id="contenedor">
+        <header>
+            <img src="./Img/CFL406 V2.png" alt="">
+            Curso de Programacion Web
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sede.html">La sede</a>
+            <a href="formulario.html">Formulario</a>
+        </nav>
+        <h1>Formulario de inscripcion 2025</h1>
+        
+        <hr>
+        
+        <form action="" method="get">
+            <span>Dejanos tus datos</span>
+            <span>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            </span>
+            <span>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="nombre">
+            </span>
+            <span>
+            <label for="contacto">Contacto</label>
+            <input type="text" name="contacto" id="contacto">
+            </span>
+            <span>
+            <label for="curso">Curso</label>
+            <select name="curso" id="curso">
+                <option value="pensamiento">Pensamiento Computacional</option>
+                <option value="programacion">Programacion Web</option>
+                <option value="" selected disabled>Seleccione una opcion</option>
+            </select>
+            </span>
+           <span>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            </span>
+        </form>
+        <footer>Curso de Pregramacion Web 2025 - San Martin
+            <img src="./Img/CFL406 V3.png" alt="">
+        </footer>
+    </div>
 </body>
 </html>
