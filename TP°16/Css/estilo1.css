@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    background-color: black;
+}
+#contenedor{
+    text-align: center;
+}
+#contenedor header{
+    padding: 2em;
+}
+#contenedor header img{
+    width: 800px;
+}
+
+
