@@ -4,42 +4,53 @@ body{
     color:white;
     background-color: black;
 }
+#contenedor{
+    
+}
+#contenedor header{
+    display: flex;
+}
 #contenedor header h1{
-    padding: 1em;
+    padding: 20px;
 }
-#contenedor header span{
-    display: flex;
-    padding: 1em;
-}
-#contenedor header img{
-    width: 1000px;
-    display: flex;
-}
-#caja{
-    position:absolute;
+#links nav{
+    position: absolute;
     top: 0;
     right: 0;
-    padding: 100px;
+    padding: 80px;
     display: flex;
 }
-#caja nav a{
+#links nav a{
     color: black;
     background-color: pink;
     text-decoration: none;
     border-radius: 0.5em;
     padding: 1em;
-    border: 0.5em;
-    display: inline-block;
 }
-#caja span{
-    padding: 0 0 15px 20px;
+#lorem1 span{
+    display: flex;
+    width: 500px;
+
 }
-#caja span a{
+#lorem2 span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+#lorem2 a{
     text-decoration: none;
     color: black;
     background-color: pink;
     border-radius: 0.5em;
     padding: 1em;
+    position: absolute;
+    top: 200%;
+}
+#foto img{
+    width: 1000px;
 }
 #cajas{
     display: flex;
@@ -68,39 +79,103 @@ article span{
     font-size: 0;
 }
 #galeria img{
-    
     padding: 2rem;
     box-sizing: border-box;
+}
+#lineas{
+    background-color: pink;
+    display: flex;
+}
+#lineas #linea1{
+    background-color: pink;
+    width: 800%;
+    height: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+#lineas #linea2{
+    background-color: red;
+    width: 800%;
+    height: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+#lineas #linea3{
+    background-color: pink;
+    width: 800%;
+    height: 2px;
+    display: inline-block;
+    padding: 2px;
+}
+#lineas #linea4{
+    background-color: pink;
+    width: 800%;
+    height: 2px;
+    display: inline-block;
+    padding: 2px;
 }
 #testimonios{
     display: flex;
 }
 #testimonio1 img{
     width: 100px;
-    height: 110px;
+    height: 100px;
     padding: 1em;
     border-radius: 400px;
 }
 #testimonio2 img{
-    width: 20px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     padding: 1em;
     border-radius: 400px;
 }
 #testimonio3 img{
-    width: 20px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     padding: 1em;
     border-radius: 400px;
 }
 form{
+    padding-left: 500px;
+}
+form span{
+    display: block;
     text-align: center;
+    padding-right: 650px;
+}
+form label{
+    display: block;
+    padding: 10px;
+}
+form input{
+    display: block;
+    padding: 10px;
+}
+form textarea{
+    display: block;
+    padding: 10px;
+}
+form button{
+    display: block;
+    padding: 15px;
+    width: 150px;
+    color: black;
+    background-color: pink;
+    border-radius: 0.5em;
+    left: 20px;
+    position: relative;
 }
 #redes{
     background-color: pink;
     display: flex;
+    width: 200px;
+    position: relative;
+    left: 480px;
+    padding: 20px;
 }
 footer{
-    text-align: center;
+    position: absolute;
+    left: 440px;
     color: pink;
+    padding: 40px;
 }
